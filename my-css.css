@@ -1,0 +1,65 @@
+ 
+/* index styles */
+#bg-img{
+    background-image: url(images/p3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+
+   width: 100%;
+    background-size: cover;
+    height: 500px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    list-style-type: none;
+
+    background-color: pink;
+
+}
+
+.top li{ 
+    padding-right: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+
+    
+}
+
+/* about sytles */
+.bg-pic{
+    background-image: url(images/p4.jpg) ;
+
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position:center;
+    background-size: cover;
+    height: 450px;
+    
+    
+
+}
+
+#bg-text{
+    text-align: center;
+    padding-top: 150px;
+    color: rgb(209, 123, 137);
+    font-weight: bold;
+    
+    
+}
+
+
+.don{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+footer a{
+    color: black !important;
+}
